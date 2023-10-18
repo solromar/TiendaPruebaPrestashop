@@ -1,0 +1,48 @@
+<?php //PrestaShop_PrestaShop_Core_Domain_Cart_QueryResult_CartForOrderCreation_CartSummary
+
+return [PHP_INT_MAX, static function () { return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
+    $o = [
+        clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Symfony\\Component\\Serializer\\Mapping\\ClassMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Symfony\\Component\\Serializer\\Mapping\\ClassMetadata')),
+        clone ($p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata')),
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+    ],
+    null,
+    [
+        'stdClass' => [
+            'name' => [
+                'PrestaShop\\PrestaShop\\Core\\Domain\\Cart\\QueryResult\\CartForOrderCreation\\CartSummary',
+                'totalProductsPrice',
+                'totalDiscount',
+                'totalShippingPrice',
+                'totalShippingWithoutTaxes',
+                'totalTaxes',
+                'totalPriceWithTaxes',
+                'totalPriceWithoutTaxes',
+                'orderMessage',
+                'processOrderLink',
+            ],
+            'attributesMetadata' => [
+                [
+                    'totalProductsPrice' => $o[1],
+                    'totalDiscount' => $o[2],
+                    'totalShippingPrice' => $o[3],
+                    'totalShippingWithoutTaxes' => $o[4],
+                    'totalTaxes' => $o[5],
+                    'totalPriceWithTaxes' => $o[6],
+                    'totalPriceWithoutTaxes' => $o[7],
+                    'orderMessage' => $o[8],
+                    'processOrderLink' => $o[9],
+                ],
+            ],
+        ],
+    ],
+    $o[0],
+    []
+); }];

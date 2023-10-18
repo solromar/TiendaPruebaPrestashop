@@ -1,0 +1,45 @@
+<?php //PrestaShop_PrestaShop_Core_Domain_Cart_QueryResult_CartForOrderCreation
+
+return [PHP_INT_MAX, static function () { return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
+    $o = [
+        clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Symfony\\Component\\Serializer\\Mapping\\ClassMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Symfony\\Component\\Serializer\\Mapping\\ClassMetadata')),
+        clone ($p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata')),
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+    ],
+    null,
+    [
+        'stdClass' => [
+            'name' => [
+                'PrestaShop\\PrestaShop\\Core\\Domain\\Cart\\QueryResult\\CartForOrderCreation',
+                'cartId',
+                'products',
+                'currencyId',
+                'langId',
+                'cartRules',
+                'addresses',
+                'shipping',
+                'summary',
+            ],
+            'attributesMetadata' => [
+                [
+                    'cartId' => $o[1],
+                    'products' => $o[2],
+                    'currencyId' => $o[3],
+                    'langId' => $o[4],
+                    'cartRules' => $o[5],
+                    'addresses' => $o[6],
+                    'shipping' => $o[7],
+                    'summary' => $o[8],
+                ],
+            ],
+        ],
+    ],
+    $o[0],
+    []
+); }];

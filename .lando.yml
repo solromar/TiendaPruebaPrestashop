@@ -1,0 +1,15 @@
+name: tiendaprestashop
+recipe: lamp
+config:
+  type: php:8.1
+  webroot: ./prestashop_edition_basic_version_8.1.1
+  database: mysql
+services:
+  appserver:
+    build:
+      - composer install --ignore-platform-reqs
+    type: php:8.1
+  database:
+   create: true   
+  
+

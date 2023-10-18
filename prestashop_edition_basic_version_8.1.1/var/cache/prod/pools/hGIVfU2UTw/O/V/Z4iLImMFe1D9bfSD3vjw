@@ -1,0 +1,3 @@
+<?php //PrestaShop%255CPrestaShop%255CCore%255CDomain%255CCart%255CQueryResult%255CCartForOrderCreation%255CCartShipping%2523isFreeShipping
+
+return [PHP_INT_MAX, []];

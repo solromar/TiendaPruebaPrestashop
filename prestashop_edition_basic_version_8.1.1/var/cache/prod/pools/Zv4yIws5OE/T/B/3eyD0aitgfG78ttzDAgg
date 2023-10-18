@@ -1,0 +1,63 @@
+<?php //PrestaShop_PrestaShop_Core_Domain_Cart_QueryResult_CartForOrderCreation_CartProduct
+
+return [PHP_INT_MAX, static function () { return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
+    $o = [
+        clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Symfony\\Component\\Serializer\\Mapping\\ClassMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Symfony\\Component\\Serializer\\Mapping\\ClassMetadata')),
+        clone ($p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata')),
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+    ],
+    null,
+    [
+        'stdClass' => [
+            'name' => [
+                'PrestaShop\\PrestaShop\\Core\\Domain\\Cart\\QueryResult\\CartForOrderCreation\\CartProduct',
+                'productId',
+                'attributeId',
+                'name',
+                'attribute',
+                'reference',
+                'unitPrice',
+                'quantity',
+                'price',
+                'imageLink',
+                'customization',
+                'availableStock',
+                'availableOutOfStock',
+                'isGift',
+                'gift',
+            ],
+            'attributesMetadata' => [
+                [
+                    'productId' => $o[1],
+                    'attributeId' => $o[2],
+                    'name' => $o[3],
+                    'attribute' => $o[4],
+                    'reference' => $o[5],
+                    'unitPrice' => $o[6],
+                    'quantity' => $o[7],
+                    'price' => $o[8],
+                    'imageLink' => $o[9],
+                    'customization' => $o[10],
+                    'availableStock' => $o[11],
+                    'availableOutOfStock' => $o[12],
+                    'isGift' => $o[13],
+                    'gift' => $o[14],
+                ],
+            ],
+        ],
+    ],
+    $o[0],
+    []
+); }];

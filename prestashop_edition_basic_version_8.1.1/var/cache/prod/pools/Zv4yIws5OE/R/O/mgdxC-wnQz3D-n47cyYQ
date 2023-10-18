@@ -1,0 +1,54 @@
+<?php //PrestaShop_PrestaShop_Core_Domain_Product_QueryResult_FoundProduct
+
+return [PHP_INT_MAX, static function () { return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
+    $o = [
+        clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Symfony\\Component\\Serializer\\Mapping\\ClassMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Symfony\\Component\\Serializer\\Mapping\\ClassMetadata')),
+        clone ($p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata')),
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+    ],
+    null,
+    [
+        'stdClass' => [
+            'name' => [
+                'PrestaShop\\PrestaShop\\Core\\Domain\\Product\\QueryResult\\FoundProduct',
+                'availableOutOfStock',
+                'productId',
+                'name',
+                'taxRate',
+                'formattedPrice',
+                'priceTaxIncl',
+                'priceTaxExcl',
+                'stock',
+                'location',
+                'combinations',
+                'customizationFields',
+            ],
+            'attributesMetadata' => [
+                [
+                    'availableOutOfStock' => $o[1],
+                    'productId' => $o[2],
+                    'name' => $o[3],
+                    'taxRate' => $o[4],
+                    'formattedPrice' => $o[5],
+                    'priceTaxIncl' => $o[6],
+                    'priceTaxExcl' => $o[7],
+                    'stock' => $o[8],
+                    'location' => $o[9],
+                    'combinations' => $o[10],
+                    'customizationFields' => $o[11],
+                ],
+            ],
+        ],
+    ],
+    $o[0],
+    []
+); }];
